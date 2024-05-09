@@ -15,6 +15,7 @@ import screen.menu.home;
 import screen.menu.rooms;
 import utils.ImageScaler;
 import utils.RoundedButton;
+import utils.RoundedTextField;
 
 /**
  *
@@ -65,7 +66,7 @@ public class dashboard extends javax.swing.JFrame {
         jButton8 = new RoundedButton();
         jButton3 = new RoundedButton();
         jPanel12 = new javax.swing.JPanel();
-        jTextField1 = new javax.swing.JTextField();
+        jTextField1 = new RoundedTextField(15);
         jPanel3 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
         jPanel7 = new javax.swing.JPanel();
@@ -184,15 +185,15 @@ public class dashboard extends javax.swing.JFrame {
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel12Layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 254, Short.MAX_VALUE)
-                .addGap(49, 49, 49))
+                .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 297, Short.MAX_VALUE)
+                .addContainerGap())
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel12Layout.createSequentialGroup()
-                .addGap(37, 37, 37)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(32, Short.MAX_VALUE))
+                .addGap(34, 34, 34)
+                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(28, Short.MAX_VALUE))
         );
 
         jPanel2.add(jPanel12, java.awt.BorderLayout.CENTER);
@@ -369,10 +370,6 @@ public class dashboard extends javax.swing.JFrame {
 
     }//GEN-LAST:event_jPanel17MouseClicked
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
-
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
         dispose();
@@ -382,6 +379,10 @@ public class dashboard extends javax.swing.JFrame {
         // TODO add your handling code here:
         setState(JFrame.ICONIFIED);
     }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
 
     /**
      * @param args the command line arguments
