@@ -30,7 +30,7 @@ public class SplashScreen extends javax.swing.JFrame {
         imageScaler.scaleImage(jLabel1, "src\\main\\resources\\logo1.png");
         
         Timer timer = new Timer(2000, e -> {
-            new Login().setVisible(true);
+            new auth().setVisible(true);
             this.dispose();
         });
         timer.setRepeats(false); // Set to false to run only once
@@ -52,7 +52,7 @@ public class SplashScreen extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
         setResizable(false);
-        getContentPane().setLayout(new java.awt.FlowLayout(1, 0, 0));
+        getContentPane().setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 0, 0));
 
         jPanel1.setBackground(new java.awt.Color(101, 28, 50));
         jPanel1.setLayout(new java.awt.BorderLayout());
